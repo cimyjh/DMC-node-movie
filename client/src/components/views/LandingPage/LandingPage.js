@@ -61,6 +61,7 @@ function LandingPage() {
             Movies.map((movie, index) => (
               <React.Fragment key={index}>
                 <GridCards
+                  // props으로 GridCards에 값이 넘어간다.
                   landingPage
                   image={
                     movie.poster_path
